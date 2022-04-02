@@ -1,0 +1,34 @@
+<templateSet group="JavaScript">
+  <template name="fc" value="const $TM_FILENAME_BASE$ = () =&gt; {&#10;  $TM_FILENAME_BASE2$&#10;};" description="函数" toReformat="false" toShortenFQNames="true">
+    <variable name="TM_FILENAME_BASE" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="TM_FILENAME_BASE2" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="CoffeeScript" value="true" />
+      <option name="ECMAScript6" value="true" />
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="TypeScript" value="true" />
+      <option name="Vue" value="true" />
+    </context>
+  </template>
+  <template name="logs" value="logger.log($END$)" description="" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="logx" value="logger.fixLog($END$)" description="" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="fx" value="const $TM_FILENAME_BASE$ = async (ctx, next) =&gt; {&#10;  $TM_FILENAME_BASE2$&#10;};" description="函数" toReformat="false" toShortenFQNames="true">
+    <variable name="TM_FILENAME_BASE" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="TM_FILENAME_BASE2" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="CoffeeScript" value="true" />
+      <option name="ECMAScript6" value="true" />
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="TypeScript" value="true" />
+      <option name="Vue" value="true" />
+    </context>
+  </template>
+</templateSet>
